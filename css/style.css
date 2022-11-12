@@ -504,7 +504,7 @@ body {
     .about-page__button {
         display: flex;
         justify-content: center;
-        max-width: 50%;
+        max-width: 45%;
         margin: 0 auto;   
     }
 
@@ -532,8 +532,12 @@ body {
         margin-bottom: 25px;
     }
     
+}
+
+@media (max-width:560px) {
+
     .about-page__button {
-        width: 90%;
+        max-width: 90%;
     }
 }
 
