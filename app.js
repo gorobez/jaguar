@@ -93,8 +93,6 @@ new Swiper('.slider-page__slider', {
 
 
 // Tel
-
-
 let input = document.querySelector("#phone");
 window.intlTelInput(input, {
     initialCountry: "ua",

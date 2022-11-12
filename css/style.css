@@ -668,6 +668,11 @@ body {
     transition: background-color 0.3s ease 0s;
 }
 
+.swiper-button-disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
 .slider-page__arrow--left {
     transform: rotate(180deg);
 }
@@ -1275,7 +1280,7 @@ body {
     }
 
     .form-page {
-        padding: 25px 0;
+        padding: 25px 0 35px 0;
     }
 
     .form-page__title {
@@ -1310,16 +1315,16 @@ body {
 .footer__container {
 }
 
+
 .footer__logo {
-    flex: 0 0 180px;
+    flex: 0 0 auto;
     max-width: 180px;
-    max-height: 50px;
 }
 
-.footer__logo img {
+.footer__logo img{
     max-width: 100%;
-    max-height: 50px;
 }
+
 .footer__text {
     font-weight: 500;
     font-size: 20px;
