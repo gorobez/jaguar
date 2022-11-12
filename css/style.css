@@ -401,7 +401,7 @@ body {
 }
 
 .about-page__content {
-    flex: 0 1 50%;
+    flex: 1 1 auto;
     padding-right: 60px;
     color: #171832;
 }
@@ -431,13 +431,11 @@ body {
 }
 
 .about-page__video {
-    position: relative;
-    flex: 1 1 50%; 
+    flex: 0 0 50%;
+    padding-bottom: 20%;
 }
 
 .about-page__video iframe {
-    max-width: 100%;
-    position: relative;
     z-index: 2;
 }
 
@@ -488,7 +486,8 @@ body {
     .about-page__title {
         font-size: 32px;
     }
-    .about-page__video { 
+    .about-page__video {
+        padding-bottom: 50%; 
         justify-self: stretch; 
     }
     .about-page__content {
