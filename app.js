@@ -96,5 +96,5 @@ new Swiper('.slider-page__slider', {
 let input = document.querySelector("#phone");
 window.intlTelInput(input, {
     initialCountry: "ua",
-
+    separateDialCode: true,
 });
