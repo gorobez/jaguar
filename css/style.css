@@ -1140,7 +1140,7 @@ body {
 }
 
 .vacancy-page__list li::before {
-    flex: 0 0 12px;
+    flex: 0 0 13px;
     content: '';
     width: 13px;
     height: 13px;
